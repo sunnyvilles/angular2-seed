@@ -1,0 +1,16 @@
+<h3>Animations Component</h3>
+
+
+
+<slide-panels [activePane]="selectedPane">
+  <div firstPane>First</div>
+  <div secondPane>Second</div>
+  <div thirdPane>Third</div>
+  <div fourthPane>Fourth</div>
+</slide-panels>
+
+
+<button (click)="switchPanes('first')">First</button>
+<button (click)="switchPanes('second')">Second</button>
+<button (click)="switchPanes('third')">Third</button>
+<button (click)="switchPanes('fourth')">Fourth</button>
